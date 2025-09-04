@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+<title>TODO supply a title</title> 
+<style>
+form-center {
+display:flex;
+justify-content: center;
+}
+body {
+background: url("./form.png") no-repeat center center/cover;
+width: 100%;
+height: 100%;
+} 
+</style>
+</head>
+<body>
+ <form action="student" method="post">
+     <h1> STUDENT FORM</h1>
+<table>
+    <tr>
+        <td> Name:</td><td><input type="text" name="name"required/></td></tr>
+<tr><td>Email:</td><td><input type="email" name="email" required/></td></tr>
+<tr> <td>Select Courses :<td>
+        <select name="courses">  <option> Web</option> <option> JAVA</option><option> PYTHON</option><option> PHP</option><option> Android</option></select></td></tr>
+<tr><td> Fees: <td><input type="text" name="fees"/></td></tr>
+<tr><td>Contact: <select>  <option> +87</option> <option> +65</option><option> +91</option><option> +93</option><option> +67</option></select>
+    </td><td><input type="text" name="contact" placeholder="964*******"/></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" value="Add Student"/></td></tr>
+</table>
+</form>
+</body>
+</html>
